@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #F1EBFF;
+    display: flex;
+    padding: 20px 0px;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+nav button {
+    color: #5E6577;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    background: transparent;
+    border: none;
+}
+
+nav button:first-of-type {
+    color: #40D;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main div:first-of-type {
+    margin-top: 64px;
+    width: 1040px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main div:first-of-type button {
+    display: flex;
+    padding: 8px 24px 8px 12px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 16px;
+    background: #F1EBFF;
+    border: none;
+}
+
+main div:first-of-type button:last-of-type {
+    display: flex;
+    width: 56px;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 16px;
+    background: #40D;
+}
+
+main div:nth-of-type(2) {
+    display: flex;
+    width: 1040px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 64px;
+}
+
+main div:nth-of-type(2) img {
+    width: 422px;
+    height: 422px;
+}
+
+main div:nth-of-type(2) p {
+    color: #5E6577;
+    text-align: right;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 125% */
+    width: 570px;
+}
+
+main div:nth-of-type(3) {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1040px;
+    height: 48px;
+    gap: 10px;
+    border-bottom: 1px solid #CCD3E0;
+    margin-top: 64px;
+}
+
+main div:nth-of-type(3) p:first-child {
+    color: #40D;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+}
+
+main div:nth-of-type(3) p:last-child {
+    color: #5E6577;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+main div:nth-of-type(4) {
+    width: 1040px;
+    height: 266px;
+    display: flex;
+    margin-top: 65px;
+    padding: 18px 23px 0 25px;
+    border-top: 2px solid #8CE900;
+    border-right: 2px solid #155EEF;
+    border-bottom: 2px solid #DD2590;
+    border-left: 2px solid #000;
+}
+
+main div:nth-of-type(4) h1 {
+    width: 488px;
+    color: #5E6577;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 116.667% */
+}
+
+main div:nth-of-type(4) p {
+    width: 488px;
+    color: #969696;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+
+main div:nth-of-type(5) {
+    display: flex;
+    width: 1040px;
+    height: 272px;
+    padding: 16px 24px;
+    align-items: center;
+    gap: 16px;
+    margin-top: 64px;
+    border-radius: 8px;
+    border: 1px solid #40D;
+    background: #EDE6FC;
+}
+
+main div:nth-of-type(5) p {
+    width: 488px;
+    color: #3B3B3B;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+
+main div:nth-of-type(5) h2 {
+    color: #5E6577;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 116.667% */
+}
+
+main div:nth-of-type(6) {
+    margin-top: 64px;
+    display: flex;
+    width: 1040px;
+    height: 272px;
+    padding: 16px 24px;
+    align-items: flex-end;
+    gap: 16px;
+    border-radius: 8px;
+    border: 1px solid #004FE3;
+}
+
+main div:nth-of-type(6) h3 {
+    color: #07081A;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 116.667% */
+    width: 488px;
+}
+
+main div:nth-of-type(6) p {
+    width: 488px;
+    color: #155EEF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px 200px 0px 928px;
+    align-items: center;
+    margin-top: 193px;
+    border-top: 1px solid #F1EBFF;
+}
